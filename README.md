@@ -8,11 +8,14 @@ Students write real Python — not blocks, not puzzles — and every week their 
 
 ## The idea
 
-Most intro-to-coding curricula produce exercises. You finish the puzzle, you get a green checkmark, and nothing survives the class. This one produces **a website**, and it produces it in the first twenty minutes.
+Most introductory coding classes are built around exercises: solve the puzzle, get the green checkmark, and move on. When the class ends, there is often nothing tangible left behind.
+This curriculum takes a different approach. Within the first twenty minutes, every student has a **website on the real internet**. A website they can send to a friend and open on a phone. From that point on, every session adds something visible to the same project.
 
-That ordering is the entire design. A 12-year-old who can send a friend a URL that works on their phone will come back for seven more weeks. So session 1 doesn't build up to a deployment — it opens with one, and every session after that adds something visible at the same address.
+That ordering is intentional. For a 12-year-old, seeing something they built actually work—and being able to share it—is a powerful motivator. Rather than spending weeks learning concepts before creating something real, students begin with a working website and learn new concepts by continually improving it.
 
-The technical spine is identical for all students, so one instructor can run a room of eight. The *subject* is entirely theirs: their dog, their Minecraft builds, a fake restaurant, a fan page. Same code shape, wildly different results.
+Across the course, students are introduced to practical software-engineering concepts they would encounter in the real world, including APIs, modern AI integration, databases, GitHub, and web hosting. The goal is not only to learn programming syntax, but to understand how the pieces of a real software project fit together.
+
+The technical foundation is consistent for all students, making the curriculum easy for one instructor to teach to a small group. The content is entirely theirs: a site about their dog, their Minecraft builds, a fictional restaurant, a favorite game, a fan page, or anything else they can imagine. Everyone learns the same core skills, but each student ends up with a completely different project—and a website they can keep, share, and continue building after the class is over.
 
 ## Who this is for
 
@@ -62,7 +65,7 @@ Not a certificate. Four concrete things:
 
 Students need **nothing**. No accounts, no signups, no installs, no passwords to remember — they get a printed card with a username and a URL.
 
-## Design decisions worth knowing about
+## Design decisions
 
 **Flask, not FastAPI.** FastAPI is built for JSON APIs — async, Pydantic, no built-in templating. For server-rendered HTML in front of beginners, Flask + Jinja is strictly fewer concepts. FastAPI is a great thing to learn *after* you want one.
 
