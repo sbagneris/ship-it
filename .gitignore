@@ -5,3 +5,6 @@ roster.txt
 checkpoints/
 backups/
 credentials*.csv
+
+# Local agent guidance, not part of the published curriculum
+CLAUDE.md
