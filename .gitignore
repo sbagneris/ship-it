@@ -1,0 +1,7 @@
+# Never commit these — they contain student data
+roster.txt
+*.log
+*.db
+checkpoints/
+backups/
+credentials*.csv
